@@ -19,7 +19,7 @@ const handler = async (request: Request): Promise<Response> => {
   let body = `
     <form>
       <label for="number">ポケモンのナンバー: </label>
-      <input type="number" id="number" name="number" value="${pokemonNumber}" min="1" max="893">
+      <input type="number" id="number" name="number" value="${pokemonNumber}" min="1" max="1008">
       <input type="submit" value="検索">
     </form>
     <br>
